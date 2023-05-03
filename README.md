@@ -1,3 +1,3 @@
 # Html-css-Javascript-Project
 
-Create  simple  calculator project using html , css and javascript .
+Created  simple  calculator project using html , css and javascript .
