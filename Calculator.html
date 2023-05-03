@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./CalculatorStyle.css">
+    </head>
+    <body>
+        <div class = "calculator">
+            <div class="border">
+                <div class="screen">
+                    <div class = "value" >
+                        <input type="text" id="mycalc">
+                    </div>
+                    <table>
+                        <tr>
+                            <td><button id="clr" class="btn special" onClick="clr()" >AC</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('+/-')">+/-</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('%')">%</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('/')">/</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="mybtn" class="btn special" onClick="dis('7')">7</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('8')">8</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('9')">9</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('*')">x</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="mybtn" class="btn special" onClick="dis('4')">4</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('5')">5</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('6')">6</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('-')">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="mybtn" class="btn special" onClick="dis('1')">1</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('2')">2</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('3')">3</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('+')">+</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button id="mybtn" class="btn number zero" onClick="dis('0')"><p class="zero">0</p></button></td>
+                            <td><button id="mybtn" class="btn decimal" onClick="dis('.')">.</button></td>
+                            <td><button id="mybtn" class="btn special" onClick="dis('=')">=</button></td>
+                        </tr>
+                    </table>
+                    <div class = "homescreen" ></div>
+                </div>
+            </div>
+        </div>
+        <script src="./calc.js"></script>
+    </body>
+</html>
