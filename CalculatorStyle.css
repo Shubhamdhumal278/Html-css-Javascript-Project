@@ -57,3 +57,70 @@ body{
     margin-top : 10px ;
 }
 
+.value input {
+    color : white ;
+    width : 100% ;
+    text-align : right ;
+    background-color : transparent ;
+    border : none ;
+    height : 40px ;
+    font-size : 40px ;
+    margin : 0 ;
+    padding : 0 15px 0 0 ;
+}
+
+table {
+    width : 100% ;
+    display : flex ;
+    justify-content : center ;
+}
+
+table tr td {
+    font-size : 20px ;
+}
+
+.btn {
+    border-radius : 50% ;
+    border-radius : none ;
+    font-size : 20px ;
+    width : 55px ;
+    height : 55px ;
+    margin : 2px ;
+    color : white ;
+}
+
+.btn.special {
+    color : white;
+    background-color : rgba(120 , 120 , 120);
+}
+
+.btn.special:hover{
+    color : white ;
+    background-color : rgba(170 , 170 , 170);
+}
+
+.btn.operator {
+    background-color : rgba(252 , 141 , 12);
+}
+
+.btn.operator :hover {
+    background-color : rgba(255 , 191 , 62);
+}
+
+.btn.number , .btn.decimal{
+    background-color : rgb(38 , 38 , 38);
+}
+
+.btn.number:hover , .btn.decimal:hover{
+    background-color : rgb(88 , 88 , 88);
+}
+
+.zero{
+    border-radius : 50px ;
+    width : 118px ;
+}
+
+.zero p {
+    padding-left : 20px ;
+    text-align : left ;
+}
